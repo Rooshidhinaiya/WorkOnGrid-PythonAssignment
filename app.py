@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import sqlite3
 import requests
 
-# Create the SQLite database and user table
+# Create the SQLite database and user table  
 conn = sqlite3.connect('users.db')
 cursor = conn.cursor()
 cursor.execute('''CREATE TABLE IF NOT EXISTS users (
