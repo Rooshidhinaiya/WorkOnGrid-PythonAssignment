@@ -1,4 +1,4 @@
-# RESTful API 
+# RESTful API using FLASK
 
 This project implements a RESTful API using Flask, a popular Python web framework. The API allows users to search for users based on their first name and retrieve matching results from a local SQLite database. If no matching users are found, the API calls an external API and saves the retrieved users to the database.
 
